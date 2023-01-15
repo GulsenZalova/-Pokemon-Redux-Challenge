@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 2rem;
+  background-color: bisque;
+}
+
+.pakemoncard{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  text-align: center;
+}
+
+.pakemondetails{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.pakemons{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.pakemon{
+   display: flex;
+   width: 40%;
+ background-color: deepskyblue;
+ align-items: center;
+ justify-content: space-between;
+ padding: 20px;
+ border-radius: 20px;
+ font-size: 20px;
+ color: darkslategray;
+}
+
+.pakemon img{
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.btn-pokemon{
+  background-color: crimson;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 20px;
+  color: white;
+  font-size: 15px;
+  transition: all .2s ease;
+  border: 1px solid transparent;
+}
+.btn-pokemon:hover{
+  background-color: white;
+  color: crimson;
+  border:  1px solid crimson;
+}
+.pakemons-controller{
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+.pakemon-detail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: darkslategray;
+}
+
+.btns{
+  display: flex;
+  gap: 15px;
+}
+.btns button{
+  padding: 15px 30px;
+  color: white;
+}
+.pokemon-info{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 20px;
+  text-align: center;
+}
